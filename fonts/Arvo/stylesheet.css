@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Arvo';
+    src: url('Arvo.eot');
+    src: url('Arvo.eot?#iefix') format('embedded-opentype'),
+        url('Arvo.woff2') format('woff2'),
+        url('Arvo.woff') format('woff'),
+        url('Arvo.ttf') format('truetype'),
+        url('Arvo.svg#Arvo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

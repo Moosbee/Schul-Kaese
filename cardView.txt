@@ -1,0 +1,9 @@
+<div class="card">
+    <a href="./card.php?CardID={{CardID}}">
+        <img width="200" height="200" src="./img/eintraege/{{imageLink}}" alt="Bild von {{Titel}}" class="cardimage">
+        <div class="container">
+            <h4><b>{{Titel}}</b></h4>
+            <p>{{Text}}</p>
+        </div>
+    </a>
+</div>

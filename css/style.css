@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo/Arvo.eot');
+    src: url('../fonts/Arvo/Arvo.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Arvo/Arvo.woff2') format('woff2'),
+        url('../fonts/Arvo/Arvo.woff') format('woff'),
+        url('../fonts/Arvo/Arvo.ttf') format('truetype'),
+        url('../fonts/Arvo/Arvo.svg#Arvo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Arvo';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #e8a735;
+}
+
+nav {
+    background-color: #e8a735;
+}
+
+section {
+    background-color: #c8000A;
+}
+
+
+footer {
+    background-color: #8c0004;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+footer h6 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+section {
+    display: grid;
+}
+
+@media (min-width: 1200px) {
+    section {
+        grid-template-columns: auto auto auto auto auto;
+    }
+
+    header {
+        padding-top: 20%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    section {
+        grid-template-columns: auto auto auto auto;
+    }
+
+    header {
+        padding-top: 20%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    section {
+        grid-template-columns: auto auto auto;
+    }
+
+    header {
+        padding-top: 30%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    section {
+        grid-template-columns: auto auto;
+    }
+
+    header {
+        padding-top: 40%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    section {
+        grid-template-columns: auto;
+    }
+
+    header {
+        padding-top: 50%;
+    }
+}
